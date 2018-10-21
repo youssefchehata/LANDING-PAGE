@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(132deg, #bd0771, #1660c1);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 5s ease infinite;
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+     .logo {
+    font-family: fantasy;
+    font-size: x-large;
+    color: white;
+}
+    a:link {
+    background-color: white;
+    border-radius: 40%;
+    color: white;
+    padding: 11px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 150%;
+    margin-left: 69px;
+}
+
+     a:hover {
+        background-color: hotpink;
+          }
+    .header{
+        display: flex;
+    justify-content: space-between;
+    }  
+    .discussion-box {
+    background-color: white;
+    border-radius: 31%;
+    width: 50%;
+    padding: 1%;
+    margin-top: 4%;
+}
+.discussion-box-with-image img{
+	margin-top: 4%;
+	border-radius: 40%;
+}
+	.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-actions{
+margin-top: 3%;
+}
+.user-actions-label{
+	color:white;
+}
+.user-actions-wrapper input
+{
+	padding: 4% 3%;
+    
+    background-color: #FF1E94;
+}
+.by{
+	color: white;
+}
